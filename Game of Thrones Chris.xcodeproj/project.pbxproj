@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC05A848299E47590070E7CF /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05A847299E47590070E7CF /* InfoCardView.swift */; };
+		DC81AF892996126A000337DE /* Game_of_Thrones_ChrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AF882996126A000337DE /* Game_of_Thrones_ChrisApp.swift */; };
+		DC81AF8B2996126A000337DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AF8A2996126A000337DE /* ContentView.swift */; };
+		DC81AF8D29961270000337DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC81AF8C29961270000337DE /* Assets.xcassets */; };
+		DC81AF9029961270000337DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC81AF8F29961270000337DE /* Preview Assets.xcassets */; };
+		DC81AF9A29961271000337DE /* Game_of_Thrones_ChrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AF9929961271000337DE /* Game_of_Thrones_ChrisTests.swift */; };
+		DC81AFA429961271000337DE /* Game_of_Thrones_ChrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AFA329961271000337DE /* Game_of_Thrones_ChrisUITests.swift */; };
+		DC81AFA629961271000337DE /* Game_of_Thrones_ChrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AFA529961271000337DE /* Game_of_Thrones_ChrisUITestsLaunchTests.swift */; };
+		DC81AFB3299625D8000337DE /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC81AFB2299625D8000337DE /* SplashScreenView.swift */; };
+		DC85D6DF2996851A00FD09C8 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85D6DE2996851900FD09C8 /* CharacterModel.swift */; };
+		DC85D6E12997A8F200FD09C8 /* GOTNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85D6E02997A8F200FD09C8 /* GOTNetworkManager.swift */; };
+		DC85D6E3299A1A7600FD09C8 /* characterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85D6E2299A1A7600FD09C8 /* characterListView.swift */; };
+		DC941EC7299BBC7E003D9F7C /* ImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC941EC6299BBC7E003D9F7C /* ImageCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC81AF9629961271000337DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC81AF7D2996126A000337DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC81AF842996126A000337DE;
+			remoteInfo = "Game of Thrones Chris";
+		};
+		DC81AFA029961271000337DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC81AF7D2996126A000337DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC81AF842996126A000337DE;
+			remoteInfo = "Game of Thrones Chris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC05A847299E47590070E7CF /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		DC81AF852996126A000337DE /* Game of Thrones Chris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Thrones Chris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC81AF882996126A000337DE /* Game_of_Thrones_ChrisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_Thrones_ChrisApp.swift; sourceTree = "<group>"; };
+		DC81AF8A2996126A000337DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC81AF8C29961270000337DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC81AF8F29961270000337DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC81AF9529961271000337DE /* Game of Thrones ChrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of Thrones ChrisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC81AF9929961271000337DE /* Game_of_Thrones_ChrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_Thrones_ChrisTests.swift; sourceTree = "<group>"; };
+		DC81AF9F29961271000337DE /* Game of Thrones ChrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of Thrones ChrisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC81AFA329961271000337DE /* Game_of_Thrones_ChrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_Thrones_ChrisUITests.swift; sourceTree = "<group>"; };
+		DC81AFA529961271000337DE /* Game_of_Thrones_ChrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_Thrones_ChrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC81AFB2299625D8000337DE /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DC85D6DE2996851900FD09C8 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		DC85D6E02997A8F200FD09C8 /* GOTNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTNetworkManager.swift; sourceTree = "<group>"; };
+		DC85D6E2299A1A7600FD09C8 /* characterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterListView.swift; sourceTree = "<group>"; };
+		DC941EC6299BBC7E003D9F7C /* ImageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC81AF822996126A000337DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9229961271000337DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9C29961271000337DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC81AF7C2996126A000337DE = {
+			isa = PBXGroup;
+			children = (
+				DC81AF872996126A000337DE /* Game of Thrones Chris */,
+				DC81AF9829961271000337DE /* Game of Thrones ChrisTests */,
+				DC81AFA229961271000337DE /* Game of Thrones ChrisUITests */,
+				DC81AF862996126A000337DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC81AF862996126A000337DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC81AF852996126A000337DE /* Game of Thrones Chris.app */,
+				DC81AF9529961271000337DE /* Game of Thrones ChrisTests.xctest */,
+				DC81AF9F29961271000337DE /* Game of Thrones ChrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC81AF872996126A000337DE /* Game of Thrones Chris */ = {
+			isa = PBXGroup;
+			children = (
+				DC81AF882996126A000337DE /* Game_of_Thrones_ChrisApp.swift */,
+				DC81AF8A2996126A000337DE /* ContentView.swift */,
+				DC85D6E02997A8F200FD09C8 /* GOTNetworkManager.swift */,
+				DC81AFB2299625D8000337DE /* SplashScreenView.swift */,
+				DC85D6E2299A1A7600FD09C8 /* characterListView.swift */,
+				DC85D6DE2996851900FD09C8 /* CharacterModel.swift */,
+				DC81AF8C29961270000337DE /* Assets.xcassets */,
+				DC81AF8E29961270000337DE /* Preview Content */,
+				DC941EC6299BBC7E003D9F7C /* ImageCardView.swift */,
+				DC05A847299E47590070E7CF /* InfoCardView.swift */,
+			);
+			path = "Game of Thrones Chris";
+			sourceTree = "<group>";
+		};
+		DC81AF8E29961270000337DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC81AF8F29961270000337DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC81AF9829961271000337DE /* Game of Thrones ChrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC81AF9929961271000337DE /* Game_of_Thrones_ChrisTests.swift */,
+			);
+			path = "Game of Thrones ChrisTests";
+			sourceTree = "<group>";
+		};
+		DC81AFA229961271000337DE /* Game of Thrones ChrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC81AFA329961271000337DE /* Game_of_Thrones_ChrisUITests.swift */,
+				DC81AFA529961271000337DE /* Game_of_Thrones_ChrisUITestsLaunchTests.swift */,
+			);
+			path = "Game of Thrones ChrisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC81AF842996126A000337DE /* Game of Thrones Chris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC81AFA929961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones Chris" */;
+			buildPhases = (
+				DC81AF812996126A000337DE /* Sources */,
+				DC81AF822996126A000337DE /* Frameworks */,
+				DC81AF832996126A000337DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Thrones Chris";
+			productName = "Game of Thrones Chris";
+			productReference = DC81AF852996126A000337DE /* Game of Thrones Chris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC81AF9429961271000337DE /* Game of Thrones ChrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC81AFAC29961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones ChrisTests" */;
+			buildPhases = (
+				DC81AF9129961271000337DE /* Sources */,
+				DC81AF9229961271000337DE /* Frameworks */,
+				DC81AF9329961271000337DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC81AF9729961271000337DE /* PBXTargetDependency */,
+			);
+			name = "Game of Thrones ChrisTests";
+			productName = "Game of Thrones ChrisTests";
+			productReference = DC81AF9529961271000337DE /* Game of Thrones ChrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC81AF9E29961271000337DE /* Game of Thrones ChrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC81AFAF29961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones ChrisUITests" */;
+			buildPhases = (
+				DC81AF9B29961271000337DE /* Sources */,
+				DC81AF9C29961271000337DE /* Frameworks */,
+				DC81AF9D29961271000337DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC81AFA129961271000337DE /* PBXTargetDependency */,
+			);
+			name = "Game of Thrones ChrisUITests";
+			productName = "Game of Thrones ChrisUITests";
+			productReference = DC81AF9F29961271000337DE /* Game of Thrones ChrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC81AF7D2996126A000337DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DC81AF842996126A000337DE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DC81AF9429961271000337DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DC81AF842996126A000337DE;
+					};
+					DC81AF9E29961271000337DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DC81AF842996126A000337DE;
+					};
+				};
+			};
+			buildConfigurationList = DC81AF802996126A000337DE /* Build configuration list for PBXProject "Game of Thrones Chris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC81AF7C2996126A000337DE;
+			productRefGroup = DC81AF862996126A000337DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC81AF842996126A000337DE /* Game of Thrones Chris */,
+				DC81AF9429961271000337DE /* Game of Thrones ChrisTests */,
+				DC81AF9E29961271000337DE /* Game of Thrones ChrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC81AF832996126A000337DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC81AF9029961270000337DE /* Preview Assets.xcassets in Resources */,
+				DC81AF8D29961270000337DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9329961271000337DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9D29961271000337DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC81AF812996126A000337DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC81AF8B2996126A000337DE /* ContentView.swift in Sources */,
+				DC941EC7299BBC7E003D9F7C /* ImageCardView.swift in Sources */,
+				DC81AF892996126A000337DE /* Game_of_Thrones_ChrisApp.swift in Sources */,
+				DC85D6E3299A1A7600FD09C8 /* characterListView.swift in Sources */,
+				DC81AFB3299625D8000337DE /* SplashScreenView.swift in Sources */,
+				DC85D6E12997A8F200FD09C8 /* GOTNetworkManager.swift in Sources */,
+				DC05A848299E47590070E7CF /* InfoCardView.swift in Sources */,
+				DC85D6DF2996851A00FD09C8 /* CharacterModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9129961271000337DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC81AF9A29961271000337DE /* Game_of_Thrones_ChrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81AF9B29961271000337DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC81AFA429961271000337DE /* Game_of_Thrones_ChrisUITests.swift in Sources */,
+				DC81AFA629961271000337DE /* Game_of_Thrones_ChrisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC81AF9729961271000337DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC81AF842996126A000337DE /* Game of Thrones Chris */;
+			targetProxy = DC81AF9629961271000337DE /* PBXContainerItemProxy */;
+		};
+		DC81AFA129961271000337DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC81AF842996126A000337DE /* Game of Thrones Chris */;
+			targetProxy = DC81AFA029961271000337DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC81AFA729961271000337DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC81AFA829961271000337DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC81AFAA29961271000337DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Game of Thrones Chris/Preview Content\"";
+				DEVELOPMENT_TEAM = QSZ295MDYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-Chris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC81AFAB29961271000337DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Game of Thrones Chris/Preview Content\"";
+				DEVELOPMENT_TEAM = QSZ295MDYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-Chris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC81AFAD29961271000337DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-ChrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Thrones Chris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game of Thrones Chris";
+			};
+			name = Debug;
+		};
+		DC81AFAE29961271000337DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-ChrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Thrones Chris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game of Thrones Chris";
+			};
+			name = Release;
+		};
+		DC81AFB029961271000337DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-ChrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game of Thrones Chris";
+			};
+			name = Debug;
+		};
+		DC81AFB129961271000337DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christopherk-glucode.com.Game-of-Thrones-ChrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game of Thrones Chris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC81AF802996126A000337DE /* Build configuration list for PBXProject "Game of Thrones Chris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC81AFA729961271000337DE /* Debug */,
+				DC81AFA829961271000337DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC81AFA929961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones Chris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC81AFAA29961271000337DE /* Debug */,
+				DC81AFAB29961271000337DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC81AFAC29961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones ChrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC81AFAD29961271000337DE /* Debug */,
+				DC81AFAE29961271000337DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC81AFAF29961271000337DE /* Build configuration list for PBXNativeTarget "Game of Thrones ChrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC81AFB029961271000337DE /* Debug */,
+				DC81AFB129961271000337DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC81AF7D2996126A000337DE /* Project object */;
+}
